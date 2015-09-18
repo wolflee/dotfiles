@@ -1,0 +1,6 @@
+set guifont=Monaco:h14
+
+" Local config
+if filereadable($HOME . "/.gvimrc.local")
+  source ~/.gvimrc.local
+endif

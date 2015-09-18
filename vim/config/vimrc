@@ -1,0 +1,30 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+if filereadable($HOME . "/.vim/config/bundles")
+  source ~/.vim/config/bundles
+endif
+
+if filereadable($HOME . "/.vimrc.bundles.local")
+  source ~/.vimrc.bundles.local
+endif
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+if filereadable($HOME . "/.vim/config/core")
+  source ~/.vim/config/core
+endif
+
+" Local config
+if filereadable($HOME . "/.vimrc.local")
+  source ~/.vimrc.local
+endif

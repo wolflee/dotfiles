@@ -1,0 +1,4 @@
+color molokai
+imap jj <ESC>
+nmap tt :Mtest<CR>
+nmap tr :!rspec --no-color<CR>
