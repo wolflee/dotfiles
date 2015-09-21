@@ -1,17 +1,15 @@
 # dotfiles
 My personal dotfiles
 
-## Done
-
-- vimrc
-
 ## Todo
 
-- zshrc
-- alias
-- ssh config
-- emacs config
-- railsrc
-- gemrc
-- gitconfig
-- setup.sh
+- [x] vimrc
+- [ ] zshrc
+- [x] alias
+- [x] ssledge
+- [ ] ssh config
+- [ ] emacs config
+- [ ] railsrc
+- [ ] gemrc
+- [ ] gitconfig
+- [ ] setup.sh
