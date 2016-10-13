@@ -59,7 +59,7 @@ set shiftround
 set expandtab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+" set list listchars=tab:»·,trail:·
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
@@ -202,6 +202,15 @@ vmap <C-j> ]egv
 
 " Visually select the text that was last edited/pasted
 nmap gV `[v`]
+
+" Powerline configuration
+"let g:airline_powerline_fonts = 1
+"if !exists('g:airline_symbols')
+"  let g:airline_symbols = {}
+"endif
+"let g:airline_symbols.space = "\ua0"
+let g:airline_left_sep = ""
+let g:airline_right_sep = ""
 
 " Snippets author
 "let g:snips_author = 'WolfLee'
