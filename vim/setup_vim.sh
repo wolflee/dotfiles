@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd `$(dirname $0)`
+cd $(dirname $0)
 
 # git clone vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
