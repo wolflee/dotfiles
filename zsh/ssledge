@@ -1,6 +1,0 @@
-PORT=10011
-
-if [ "$(lsof -n -i4TCP:$PORT | grep LISTEN)" ];then
-  export http_proxy="http://localhost:$PORT"
-  export https_proxy="http://localhost:$PORT"
-fi

@@ -1,3 +1,0 @@
-alias dnsclean="sudo killall -HUP mDNSResponder"
-alias vim="mvim -v"
-alias compile-ssh-config='cat ~/.ssh/config.d/* > ~/.ssh/config'

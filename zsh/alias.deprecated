@@ -1,0 +1,11 @@
+# alias y7p="ssh -CN -D 2345 charly@shared100-vm07.cnodp.corp.tw1.yahoo.com"
+# alias y7l="ssh jasonli@jason.bs.sydney.corp.yahoo.com"
+# alias lnp="ssh -CN -D 4567 -p 5732 root@106.187.39.47"
+# alias lmp="ssh -CN -D 4567 root@173.255.201.87"
+# alias lnl="ssh -p 5732 root@106.187.39.47"
+
+# alias dnsclean="sudo killall -HUP mDNSResponder"
+# alias vpn="~/dev/vpncloud-ping/vpn.sh"
+# alias vim="mvim -v"
+
+# alias gwp=' git config user.name "Li Yuan"; git config user.email "liyuan@csdn.net"'
