@@ -1,5 +1,4 @@
 alias dnsclean="sudo killall -HUP mDNSResponder"
-alias vim="mvim -v"
 alias compile-ssh-config='cat ~/.ssh/config.d/* > ~/.ssh/config'
 
 alias mkcd='_(){ mkdir -p $1; cd $1; }; _'
@@ -8,7 +7,7 @@ alias upf="sudo -H mktexlsr"
 # git
 alias gdc="git diff --cached"
 alias gln='git log --name-status'
-alias gl1='git log --oneline'
+alias gl1="git log --pretty=format:'%C(yellow)%h %C(cyan)%ad %C(magenta)%an%C(auto)%d %Creset%s' --date=short"
 alias plan='git commit --allow-empty -m'
 
 # elixir
