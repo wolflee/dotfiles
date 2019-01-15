@@ -16,6 +16,6 @@ alias piex='ERL_AFLAGS="-kernel shell_history enabled" iex -S mix'
 # exa
 alias la="exa -abghl --git --color=automatic"
 
-# `cat` with beautiful colors. requires: pip install -U Pygments
-alias c='pygmentize -O style=monokai -f console256 -g'
+# `cat` with beautiful colors. requires: bat
+alias c='bat --plain --theme="Monokai Extended Bright"'
 unalias rg
