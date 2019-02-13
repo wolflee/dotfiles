@@ -19,3 +19,5 @@ alias la="exa -abghl --git --color=automatic"
 # `cat` with beautiful colors. requires: bat
 alias c='bat --plain --theme="Monokai Extended Bright"'
 unalias rg
+
+setopt COMPLETE_ALIASES
